@@ -32,3 +32,20 @@ A variable with an enum symbol can only take one of a set of predetermined value
 
 7. What is code coverage?
 Code Coverage calculates how much your production code ran while your automated test suite was being run. It is usually stated as a percentage of lines that were actually executed out of all the lines that could be performed. It provides a general indication of "how well tested" your code is and, thus, "how certain we may be that it will operate."
+
+8. What are different aplication states in iOS?
+iOS has five application states:
+**Not Running**
+The system shut down the app, whether it had already started or not.
+
+**Inactie**
+Despite being active in the foreground, the app is not currently getting events. A typical app only spends a short time in this stage before moving on to another.
+
+**Active**
+The application is getting events while it is active in the foreground. The default setting for foreground apps is this.
+
+**Background**
+The application runs code in the background. Most apps briefly experience this status before being suspended. However, a program requiring more execution time can stay in this condition for a while.
+
+**Suspended**
+No code is being executed even if the progra is running in the background. Before the system converts them to this mode automatically, apps are not informed. A paused program still has memory, but it is not actively running any code.
