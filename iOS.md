@@ -49,3 +49,7 @@ The application runs code in the background. Most apps briefly experience this s
 
 **Suspended**
 No code is being executed even if the program is running in the background. Before the system converts them to this mode automatically, apps are not informed. A paused program still has memory, but it is not actively running any code.
+
+9. What is Deep Linking in iOS?
+Deep Linking in mobile apps is the future frontier for exponentially increasing product and services sales. It is comparable to clickable links on web pages, except, in this case, it directs consumers to certain pages within mobile apps. Instead of just opening a mobile app and navigating to a specific page inside it, this technology instantaneously integrates mobile applications, giving users direct access to services.
+The current state of mobile app technology prevents smooth navigation and interaction between several apps. Deep linking provides a solution by making it easier for users to find certain landing pages within the app.
