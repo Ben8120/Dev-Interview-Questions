@@ -60,3 +60,5 @@ in iOS, GCD is used for:
  - Making an app more responsive by carrying out complicated activities in the background.
  - Offering a better concurrency model than the typical locks and threads to prevent concurrency errors.
 
+11. What is Automatic Reference Counting?
+Automatic Reference Counting is a compile-time memory management technique. It guarantees objects are kept in memory only as long as they are required in object-oriented software development or are removed otherwise.
