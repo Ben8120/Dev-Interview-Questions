@@ -48,4 +48,4 @@ The application is getting events while it is active in the foreground. The defa
 The application runs code in the background. Most apps briefly experience this status before being suspended. However, a program requiring more execution time can stay in this condition for a while.
 
 **Suspended**
-No code is being executed even if the progra is running in the background. Before the system converts them to this mode automatically, apps are not informed. A paused program still has memory, but it is not actively running any code.
+No code is being executed even if the program is running in the background. Before the system converts them to this mode automatically, apps are not informed. A paused program still has memory, but it is not actively running any code.
