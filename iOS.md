@@ -53,3 +53,10 @@ No code is being executed even if the program is running in the background. Befo
 9. What is Deep Linking in iOS?
 Deep Linking in mobile apps is the future frontier for exponentially increasing product and services sales. It is comparable to clickable links on web pages, except, in this case, it directs consumers to certain pages within mobile apps. Instead of just opening a mobile app and navigating to a specific page inside it, this technology instantaneously integrates mobile applications, giving users direct access to services.
 The current state of mobile app technology prevents smooth navigation and interaction between several apps. Deep linking provides a solution by making it easier for users to find certain landing pages within the app.
+
+10. What is Grand Central Dispatch (GCD)?
+GCD optimizes software for multicore computers. It aids in concurrent code execution by delegating thread pool management from the developer to the OS.
+in iOS, GCD is used for:
+ - Making an app more responsive by carrying out complicated activities in the background.
+ - Offering a better concurrency model than the typical locks and threads to prevent concurrency errors.
+
