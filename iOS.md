@@ -66,3 +66,18 @@ Automatic Reference Counting is a compile-time memory management technique. It g
 12. What is Cocoa Touch?
 To create iOS applications, Apple created the Cocoa Touch framework. Classes in Cocoa Touch that begin with "NS" or "UI". Cocoa is a prerequisite for running applications on the iPhone. Think of cocoa or any framework as a bridging mechanism between a device and a programming language.
 
+13. What is the difference between a thread and a process?
+**Process**
+A process is a program in execution or a dynamic instance of a program waiting in the queue or using the CPU. Many components make up a process, as follows:
+ - Process ID
+ - Memory Sections (stack, heap, text, code sections)
+ - Process State
+ - Program Counter
+ - List of Open Apps
+
+**Thread**
+The fundamental components of CPU usage is a thread. The process itself is a component of a thread. There might be more than one thread in a process. Crucial parts that make up a thread include:
+ - Thread ID
+ - Program Counter
+ - Register Set
+ - Stack
