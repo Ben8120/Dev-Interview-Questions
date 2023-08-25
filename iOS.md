@@ -62,3 +62,7 @@ in iOS, GCD is used for:
 
 11. What is Automatic Reference Counting?
 Automatic Reference Counting is a compile-time memory management technique. It guarantees objects are kept in memory only as long as they are required in object-oriented software development or are removed otherwise.
+
+12. What is Cocoa Touch?
+To create iOS applications, Apple created the Cocoa Touch framework. Classes in Cocoa Touch that begin with "NS" or "UI". Cocoa is a prerequisite for running applications on the iPhone. Think of cocoa or any framework as a bridging mechanism between a device and a programming language.
+
