@@ -96,3 +96,7 @@ Retain: It is the opposite of the keyword assign. It establishes a reference bet
 Bundle IDs serve as the applications' exclusive IDs within the Apple ecosystem. The result? No two applications can share the same identification. You can use the bundle ID to identify app upgrades.
 
 App ID string on the other hand, identifies any apps from the same development team. The string comprises of two segments: the Team ID and the Bundle ID. These segments are separated by a period (.). While developers provide Bundle IDs to identify a single program or a group of apps, Apple provides Team IDs to identify a certain development team.
+
+17. What is the Singleton Design Pattern?
+Singleton is an object construction design pattern. It comes under the "creative" design patterns. It allows us to have one and only one instance of a class. Singleton objects are typically used to give your application configuration options or a global environment.
+
