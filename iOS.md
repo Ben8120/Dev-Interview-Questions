@@ -91,3 +91,8 @@ Design patterns do not serve as guidelines for creating better software, as desi
 Assign: This keyword enables us to construct a reference from one object to another without increasing the source's retain count. The retain count keeps track of how many objects are clinging to one another. The value is immediately assigned to the instance variable.
 
 Retain: It is the opposite of the keyword assign. It establishes a reference between two objects, but it also raises the source's retain count.
+
+16. How is Bundle ID different from APP ID?
+Bundle IDs serve as the applications' exclusive IDs within the Apple ecosystem. The result? No two applications can share the same identification. You can use the bundle ID to identify app upgrades.
+
+App ID string on the other hand, identifies any apps from the same development team. The string comprises of two segments: the Team ID and the Bundle ID. These segments are separated by a period (.). While developers provide Bundle IDs to identify a single program or a group of apps, Apple provides Team IDs to identify a certain development team.
