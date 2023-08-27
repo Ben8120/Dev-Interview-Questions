@@ -100,3 +100,10 @@ App ID string on the other hand, identifies any apps from the same development t
 17. What is the Singleton Design Pattern?
 Singleton is an object construction design pattern. It comes under the "creative" design patterns. It allows us to have one and only one instance of a class. Singleton objects are typically used to give your application configuration options or a global environment.
 
+18. What are the features of Swift Programming Language?
+Some features of the Swift programming Language includes:
+ - Simple to Understand: Swift reads similarly to English, making it simple for newcomers to learn.
+ - Scalable: Swift is one of the most scalable programming languages and can extend features to both iOS and OSX platforms.
+ - Easy to Maintain: As an IDE, XCode checks our code for problems before building the app, making it quick and easy to manage.
+ - Quick: Swift is statically typed, making it faster than other programming languages.
+ - Improved Memory Use: Swift's memory management is automated.
