@@ -81,3 +81,13 @@ The fundamental components of CPU usage is a thread. The process itself is a com
  - Program Counter
  - Register Set
  - Stack
+
+ 14. What are Design Patterns?
+ In essence, design patterns are repaeatable code solutions that may be applied repeatedly to address typical software issues. Using design patterns in your projects will result in more modular, more scalable, and optimized software. You'll better comprehend other people's code since you'll be able to recognize the design pattern right away.
+
+Design patterns do not serve as guidelines for creating better software, as design patterns and best practices are totally unline one another. Moreover, they are not intended to provide instructions on how to approach challenges. Rather, they merely serve as documentation of observed usual responses to typical engineering and architectural concepts. Common design patterns include Facade, Decorator, Factory Method, Singleton etc.
+
+15. How well do you understand **assign** and **retain** keywords?
+Assign: This keyword enables us to construct a reference from one object to another without increasing the source's retain count. The retain count keeps track of how many objects are clinging to one another. The value is immediately assigned to the instance variable.
+
+Retain: It is the opposite of the keyword assign. It establishes a reference between two objects, but it also raises the source's retain count.
