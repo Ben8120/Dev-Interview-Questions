@@ -107,3 +107,7 @@ Some features of the Swift programming Language includes:
  - Easy to Maintain: As an IDE, XCode checks our code for problems before building the app, making it quick and easy to manage.
  - Quick: Swift is statically typed, making it faster than other programming languages.
  - Improved Memory Use: Swift's memory management is automated.
+
+ 19. What is a Facade Design Pattern?
+ Face Pattern makes a system easier to use by disguising its complexity. Under a structural design pattern, it belongs. In this architecture, client programs can access the system, but it hides how it functions by giving clients a mroe user-friendly interface.
+ In this approach, a sing class (FACADE) is constructed and contains user-defined functions as well as delegates that call other classes belonging to the system. As a result, the client code just communicates with Facade and not the underlying system.
