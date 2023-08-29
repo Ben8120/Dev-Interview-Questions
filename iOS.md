@@ -130,3 +130,8 @@ The controller controls the View-Model interactions. What happens if a user want
 
 **View**:
 The view is the user interface and presentation that gives end-users access to the application's resources and lets them send requests to the application's server or backend. Normally, the user can use a web browser or a mobile app to send the query to get certain resources, such as a specific web page. You can write the view entirely in HTML or with tools and frameworks like React, Vue, etc.
+
+22. Can you explain Spritekit and SceneKit frameworks?
+**SpriteKit**: This framework enables game developers to quickly and easily create 2D animated objects. It lets them create text, videos, images, shapes, and particles in two dimensions.
+
+**SceneKit**: This is an iOS framework for creating 3D graphics. iOS game developers can use this framework to produce appealing 3D animated effects and scenes for iOS game applications.
