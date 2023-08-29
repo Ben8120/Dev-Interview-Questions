@@ -111,3 +111,22 @@ Some features of the Swift programming Language includes:
  19. What is a Facade Design Pattern?
  Face Pattern makes a system easier to use by disguising its complexity. Under a structural design pattern, it belongs. In this architecture, client programs can access the system, but it hides how it functions by giving clients a mroe user-friendly interface.
  In this approach, a sing class (FACADE) is constructed and contains user-defined functions as well as delegates that call other classes belonging to the system. As a result, the client code just communicates with Facade and not the underlying system.
+
+ 20. Which framework will you leverage to develop the application interface for iOS?
+ UIKit is a Framework specifically designed for iOS development. This framework lets developers design an application's graphical infrastructure and user interface. It comprises the following:
+  - User interface
+  - Event handling
+  - App Structure
+  - Graphics, printing, and drawing
+
+21. What is MVC?
+The main MVC principle is the division of a program into three parts:
+**Model**:
+Data shape and business logic are referred to as models, which serve the database blueprint. The model maintains application data and accesses and stores the object model state in a database.
+It updates the data and reacts to user requests for data reading. In this case, the Model communicate with the database to receive or publish data. Moreover, it takes requests linked to the database, processes them, and then returns the data to the user via the browser.
+
+**Controller**:
+The controller controls the View-Model interactions. What happens if a user wants to ask for data and receive a response? They would require the right business logic - an algorithm that accepts a user request, verifies it, or forwards it to another component. Then, the algorithm delivers the client response.
+
+**View**:
+The view is the user interface and presentation that gives end-users access to the application's resources and lets them send requests to the application's server or backend. Normally, the user can use a web browser or a mobile app to send the query to get certain resources, such as a specific web page. You can write the view entirely in HTML or with tools and frameworks like React, Vue, etc.
