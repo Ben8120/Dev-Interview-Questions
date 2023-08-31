@@ -151,3 +151,8 @@ There are few pattern matching techniques in Swift, examples of such are shown, 
 
  25. What is a lazy stored property in Swift?
  A property is considered lazy stored if its initial value is not determined until the first time it is utilized. By adding the lazy modifier before a stored property's declaration, we may indicate a property as a lazy stored property.
+
+
+26. What is concurrency?
+Concurrency entails two tasks running simultaneously. For example, when the kernel on a computer assigns two processes to distinct cores, both cores execute the process instructions at the same time.
+Likewise, concurrency occurs when new connections arrive before older connections have finished and must be handled right away. In a broader sense, it occurs when we must manage several tasks at roughly the same time. Parallel execution occurs when many tasks begin running simultaneously.
