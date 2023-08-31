@@ -135,3 +135,13 @@ The view is the user interface and presentation that gives end-users access to t
 **SpriteKit**: This framework enables game developers to quickly and easily create 2D animated objects. It lets them create text, videos, images, shapes, and particles in two dimensions.
 
 **SceneKit**: This is an iOS framework for creating 3D graphics. iOS game developers can use this framework to produce appealing 3D animated effects and scenes for iOS game applications.
+
+23. What are the different pattern matching techniques in Swift?
+In Swift, pattern matching is a powerful feature that can be used to match values against a set of patterns, including ranges, optionals, tuples, and enums. With pattern matching, we can write more concise and expressive code that is easier to read and maintain. It is commonly used in control flow statements such as *switch* and *if* statements, but it can also be used in other contexts such as function parameters and variable binding.
+There are few pattern matching techniques in Swift, examples of such are shown, such as:
+ - Tuple patterns
+ - Type-casting patterns
+ - Wildcard patterns
+ - Optional patterns
+ - Enumeration case patterns
+ - Expression patterns
