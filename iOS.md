@@ -148,3 +148,6 @@ There are few pattern matching techniques in Swift, examples of such are shown, 
 
  24. What are generics in Swift?
  Code that uses generics does not specify underlying data types. We can predict the type it will contain thanks to generics. Additionally, generics optimize code.
+
+ 25. What is a lazy stored property in Swift?
+ A property is considered lazy stored if its initial value is not determined until the first time it is utilized. By adding the lazy modifier before a stored property's declaration, we may indicate a property as a lazy stored property.
