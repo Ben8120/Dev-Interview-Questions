@@ -145,3 +145,6 @@ There are few pattern matching techniques in Swift, examples of such are shown, 
  - Optional patterns
  - Enumeration case patterns
  - Expression patterns
+
+ 24. What are generics in Swift?
+ Code that uses generics does not specify underlying data types. We can predict the type it will contain thanks to generics. Additionally, generics optimize code.
