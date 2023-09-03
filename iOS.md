@@ -161,3 +161,7 @@ Likewise, concurrency occurs when new connections arrive before older connection
 In KVC (Key-Value Coding), object properties can be accessed at runtime using strings rather than by knowing the names of the properties in advance while developing the application.
 
 KVO (Key-Value Observing) is one of the techniques for tracking program state changes in Swift and Objective-C. KVO makes it possible for other objects to keep track of changes to instance variables if an object has them.
+
+28. What is Guard Statement in Swift?
+The conditional statement "guard" offers a few more promises than a typical conditional. Execution will unquestionably depart the current scope if the condition is false (or, at the very least, skip this iteration of a loop, break out of a loop, return from the curent block/function, or terminate the entire program).
+Additionally, it has the advantageous effect of maintaining whatever bindings you create in the condition for the remainder of the scope, preventing you from needing ever more nested if statements simply to say unwrap four optional values.
