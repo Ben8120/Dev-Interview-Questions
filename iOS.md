@@ -156,3 +156,8 @@ There are few pattern matching techniques in Swift, examples of such are shown, 
 26. What is concurrency?
 Concurrency entails two tasks running simultaneously. For example, when the kernel on a computer assigns two processes to distinct cores, both cores execute the process instructions at the same time.
 Likewise, concurrency occurs when new connections arrive before older connections have finished and must be handled right away. In a broader sense, it occurs when we must manage several tasks at roughly the same time. Parallel execution occurs when many tasks begin running simultaneously.
+
+27. State the difference between KVC and KVO in Swift.
+In KVC (Key-Value Coding), object properties can be accessed at runtime using strings rather than by knowing the names of the properties in advance while developing the application.
+
+KVO (Key-Value Observing) is one of the techniques for tracking program state changes in Swift and Objective-C. KVO makes it possible for other objects to keep track of changes to instance variables if an object has them.
